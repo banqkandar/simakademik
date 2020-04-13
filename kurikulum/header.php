@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Halaman Admin</title>
+    <title>Halaman KuriKulum</title>
     <link rel="stylesheet" href="../css/admin.css"  type="text/css">
     <link rel="stylesheet" href="../vendor/fontawesome-free/css/all.min.css" type="text/css">
     <link rel="stylesheet" href="../css/all.min.css"  type="text/css">
@@ -24,7 +24,7 @@
             <div class="sidebar-brand d-flex align-items-center justify-content-center mt-5">
                 <div class="sidebar-brand-icon mt-3">
                     <img class="mb-2 shadow" src="../images/profile.svg" style="width:4em">
-                    <h3 class="h6 text-white">Admin
+                    <h3 class="h6 text-white">Nama Petugas
                     <span class="badge badge-pill badge-light"><a  href="editUser.php"<i class="fas fa-fw fa-cog" style="color:#2F2E41; text-decoration:none"></i></a></span></h3>
                 </div>
             </div>

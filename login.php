@@ -1,4 +1,4 @@
-<?php include('head.php'); ?>
+<?php include 'header.php'; ?>
 <div class="login">
     <div class="img">
         <img src="images/login.svg">
@@ -35,4 +35,4 @@
         </form>
     </div>
 </div>
-<?php include('footer.php'); ?>
+<?php include 'footer.php'; ?>

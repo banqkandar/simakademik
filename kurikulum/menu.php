@@ -15,7 +15,6 @@
         <div id="dataMaster" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="guru.php">Data Guru</a>
-            <a class="collapse-item" href="siswa.php">Data Siswa</a>
             <a class="collapse-item" href="mapel.php">Data Mata Pelajaran</a>
             <a class="collapse-item" href="jurusan.php">Data Jurusan</a>
             <a class="collapse-item" href="ruang.php">Data Ruang</a>
@@ -25,13 +24,13 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#dataLaporan" aria-expanded="true" aria-controls="dataLaporan">
-            <span>Data Laporan</span>
+        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#dataPenjadwalan" aria-expanded="true" aria-controls="dataPenjadwalan">
+            <span>Data Penjadwalan</span>
         </a>
-        <div id="dataLaporan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div id="dataPenjadwalan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="nilai.php">Data Nilai</a>
-            <a class="collapse-item" href="kehadiran.php">Data Kehadiran</a>
+            <a class="collapse-item" href="penjadwalan.php">Data Jadwal</a>
+            <a class="collapse-item" href="analisisJadwal.php">Analisis Jadwal</a>
             </div>
         </div>
     </li>

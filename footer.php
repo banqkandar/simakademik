@@ -2,6 +2,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
+  <!-- function animtion sign in and sign up -->
   <script>
     const inputs = document.querySelectorAll('.input');
 
@@ -22,6 +23,7 @@
       input.addEventListener('blur', blurFunc);
     });
   </script>
+  
 </body>
 
 </html>

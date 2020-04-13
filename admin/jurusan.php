@@ -4,7 +4,7 @@
 
 <div class="container-fluid">
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h4 mt-5 text-gray-800 ">Data Ruang</h1>
+    <h1 class="h4 mt-5 text-gray-800 ">Data Jurusan</h1>
   </div>
 
   <div class="row">
@@ -12,9 +12,9 @@
     <div class="col-md-12">
       <div class="card mb-4">
         <div class="card-header d-sm-flex align-items-center justify-content-between">
-          <h6 class="text-custom font-weight-bold">Data Ruang</h6>
+          <h6 class="text-custom font-weight-bold">Data Jurusan</h6>
           <a href="#" class="d-none d-sm-inline-block btn btn-primary btn-sm shadow-sm" data-toggle="modal"
-            data-target="#tambahRuangModal"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah Ruang</a>
+            data-target="#tambahJurusanModal"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah Jurusan</a>
         </div>
         <div class="card-body">
           <div class="table-responsive">
@@ -22,20 +22,27 @@
               <thead>
                 <tr>
                   <th>No</th>
-                  <th>Nama Ruangan</th>
-                  <th>Kapasitas Ruangan</th>
+                  <th>Nama Jurusan</th>
                   <th>Aksi</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1.</td>
-                  <td>R304</td>
-                  <td>45</td>
+                  <td>IPA</td>
                   <td>
-                    <a href="editRuang.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="deleteRuang.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="editJurusan.php" class="btn btn-success btn-sm">Edit</a> |
+                    <a href="deleteJurusan.php" class="btn btn-danger btn-sm">Delete</a>
                   </td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>IPS</td>
+                  <td>
+                    <a href="editJurusan.php" class="btn btn-success btn-sm">Edit</a> |
+                    <a href="deleteJurusan.php" class="btn btn-danger btn-sm">Delete</a>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -47,13 +54,13 @@
 
 </div>
 
-<!-- Tambah Ruangan Modal-->
-<div class="modal fade" id="tambahRuangModal" tabindex="-1" role="dialog" aria-labelledby="tambahRuangModal"
+<!-- Tambah Jurusan Modal-->
+<div class="modal fade" id="tambahJurusanModal" tabindex="-1" role="dialog" aria-labelledby="tambahJurusanModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="tambahRuangModal">Tambah Ruangan</h5>
+        <h5 class="modal-title" id="tambahJurusanModalLabel">Tambah Jurusan Guru</h5>
         <button class="close" type="button" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
@@ -61,17 +68,13 @@
       <div class="modal-body">
         <form class="user" action="" method="POST">
         <div class="form-group">
-          <label for="namaRuang">Nama Ruangan</label>
-          <input type="text" class="form-control" id="namaRuang" name="namaRuang" required>
-        </div>
-        <div class="form-group">
-          <label for="kapasitasRuang">Kapasitas Ruangan</label>
-          <input type="number" class="form-control" id="kapasitasRuang" name="kapasitasRuang" required>
+          <label for="namaJurusan">Nama Jurusan</label>
+          <input type="text" class="form-control" id="namaJurusan" name="namaJurusan" required>
         </div>
       </div>
       <div class="modal-footer">
         <button type="reset" class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-        <button type="submit" name="tambahRuang" class="btn btn-primary">Tambah</button>
+        <button type="submit" name="tambahJurusan" class="btn btn-primary">Tambah</button>
       </div>
       </form>
     </div>

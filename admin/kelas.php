@@ -12,8 +12,9 @@
     <div class="col-md-12">
       <div class="card mb-4">
         <div class="card-header d-sm-flex align-items-center justify-content-between">
-          <h6 class="text-gray">Data Kelas</h6>
-          <a href="tambahKelas.php" class="d-none d-sm-inline-block btn btn-primary btn-sm shadow-sm"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah Kelas</a>
+          <h6 class="text-custom font-weight-bold">Data Kelas</h6>
+          <a href="#" class="d-none d-sm-inline-block btn btn-primary btn-sm shadow-sm" data-toggle="modal"
+            data-target="#tambahKelasModal"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah Kelas</a>
         </div>
         <div class="card-body">
           <div class="table-responsive">
@@ -21,28 +22,35 @@
               <thead>
                 <tr>
                   <th>No</th>
-                  <th>Kode</th>
-                  <th>Mata Kuliah</th>
-                  <th>Dosen</th>
-                  <th>Kelas</th>
-                  <th>Program Studi</th>
-                  <th>Kapasitas</th>
+                  <th>Nama Kelas</th>
                   <th>Aksi</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1.</td>
-                  <td>MK001</td>
-                  <td>Kewirausahaan</td>
-                  <td>Alexsander Suyono</td>
-                  <td>IF1</td>
-                  <td>Teknik Informatika</td>
-                  <td>45</td>
+                  <td>10</td>
                   <td>
                     <a href="editKelas.php" class="btn btn-success btn-sm">Edit</a> |
                     <a href="deleteKelas.php" class="btn btn-danger btn-sm">Delete</a>
                   </td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>11</td>
+                  <td>
+                    <a href="editKelas.php" class="btn btn-success btn-sm">Edit</a> |
+                    <a href="deleteKelas.php" class="btn btn-danger btn-sm">Delete</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>12</td>
+                  <td>
+                    <a href="editKelas.php" class="btn btn-success btn-sm">Edit</a> |
+                    <a href="deleteKelas.php" class="btn btn-danger btn-sm">Delete</a>
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -53,4 +61,33 @@
   </div>
 
 </div>
+
+
+<!-- Tambah Kelas Modal-->
+<div class="modal fade" id="tambahKelasModal" tabindex="-1" role="dialog" aria-labelledby="tambahKelasModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="tambahKelasModalLabel">Tambah Kelas Guru</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="user" action="" method="POST">
+          <div class="form-group">
+            <label for="namaKelas">Nama Kelas</label>
+            <input type="text" class="form-control" id="namaKelas" name="namaKelas" required>
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="reset" class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
+        <button type="submit" name="tambahKelas" class="btn btn-primary">Tambah</button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
 <?php include 'footer.php'; ?>

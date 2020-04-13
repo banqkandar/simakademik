@@ -125,8 +125,6 @@
       <div class="card mb-4">
         <div class="card-header d-sm-flex align-items-center justify-content-between">
           <h6 class="text-custom font-weight-bold">Kelola User</h6>
-          <a href="#" class="d-none d-sm-inline-block btn btn-primary btn-sm shadow-sm" data-toggle="modal"
-            data-target="#tambahUserModal"><i class="fas fa-plus fa-sm text-white-50"></i> Tambah User</a>
         </div>
         <div class="card-body">
           <div class="table-responsive">
@@ -143,45 +141,35 @@
                   <td>ALex</td>
                   <td>Suvervisor</td>
                   <td>
-                    <a href="editUser.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a> |
-                    <a href="deleteUser.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a>
                   </td>
                 </tr>
                 <tr>
                   <td>Ronal</td>
                   <td>Kurikulum</td>
                   <td>
-                    <a href="editUser.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a> |
-                    <a href="deleteUser.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a>
                   </td>
                 </tr>
                 <tr>
                   <td>Totti</td>
                   <td>Kurikulum</td>
                   <td>
-                    <a href="editUser.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a> |
-                    <a href="deleteUser.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a>
                   </td>
                 </tr>
                 <tr>
                   <td>Surya</td>
                   <td>Tata Usaha</td>
                   <td>
-                    <a href="editUser.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a> |
-                    <a href="deleteUser.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a>
                   </td>
                 </tr>
                 <tr>
                   <td>Salman</td>
                   <td>Kepala Sekolah</td>
                   <td>
-                    <a href="editUser.php" class="btn btn-success btn-sm">Edit</a> |
-                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a> |
-                    <a href="deleteUser.php" class="btn btn-danger btn-sm">Delete</a>
+                    <a href="detailUser.php" class="btn btn-warning btn-sm">Detail</a>
                   </td>
                 </tr>
               </tbody>
@@ -222,72 +210,6 @@
 
   </div>
 
-</div>
-
-
-<!-- Tambah User Modal-->
-<div class="modal fade" id="tambahUserModal" tabindex="-1" role="dialog" aria-labelledby="tambahUserModalLabel"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="tambahUserModalLabel">Tambah Jurusan Guru</h5>
-        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form class="user" action="" method="POST">
-          <div class="form-group">
-            <label for="nipUser">NIP User</label>
-            <input type="number" class="form-control" id="nipUser" name="nipUser" required>
-          </div>
-          <div class="form-group">
-            <label for="namaUser">Nama User</label>
-            <input type="text" class="form-control" id="namaUser" name="namaUser" required>
-          </div>
-          <div class="form-group">
-            <label for="alamatUser">Alamat User</label>
-            <textarea class="form-control" name="alamatUser" id="alamatUser" cols="10" rows="3">Bandung</textarea>
-          </div>
-          <div class="form-group">
-            <label for="noTeleponUser">No Telepon User</label>
-            <input type="text" class="form-control" id="noTeleponUser" name="noTeleponUser" required>
-          </div>
-          <div class="form-group">
-            <label>Level</label>
-            <select name="prodi" class="form-control" required>
-              <option value=""> -- Pilih Level -- </option>
-              <option value="">Supervisor</option>
-              <option value="">Kepala Sekolah</option>
-              <option value="">Tata Usaha</option>
-              <option value="">Kurikulum</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="emailUser">Email User</label>
-            <input type="text" class="form-control" id="emailUser" name="emailUser" required>
-          </div>
-          <div class="form-group">
-            <label for="passwordUser">Password User</label>
-            <input type="password" class="form-control" id="passwordUser" name="passwordUser" required>
-          </div>
-          <div class="form-group">
-            <label>Status</label>
-            <select name="prodi" class="form-control" required>
-              <option value=""> -- Status Sekarang -- </option>
-              <option value="no_active">Aktif</option>
-              <option value="active">Tidak Aktif</option>
-            </select>
-          </div>
-      </div>
-      <div class="modal-footer">
-        <button type="reset" class="btn btn-secondary" type="button" data-dismiss="modal">Batal</button>
-        <button type="submit" name="tambahUser" class="btn btn-primary">Tambah</button>
-      </div>
-      </form>
-    </div>
-  </div>
 </div>
 
 <?php include 'footer.php'; ?>

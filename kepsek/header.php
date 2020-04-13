@@ -24,7 +24,7 @@
             <div class="sidebar-brand d-flex align-items-center justify-content-center mt-5">
                 <div class="sidebar-brand-icon mt-3">
                     <img class="mb-2 shadow" src="../images/profile.svg" style="width:4em">
-                    <h3 class="h6 text-white">Admin
+                    <h3 class="h6 text-white">Nama Kepala Sekolah
                     <span class="badge badge-pill badge-light"><a  href="editUser.php"<i class="fas fa-fw fa-cog" style="color:#2F2E41; text-decoration:none"></i></a></span></h3>
                 </div>
             </div>

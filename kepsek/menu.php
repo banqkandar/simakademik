@@ -36,6 +36,18 @@
         </div>
     </li>
 
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="" data-toggle="collapse" data-target="#dataPenjadwalan" aria-expanded="true" aria-controls="dataPenjadwalan">
+            <span>Data Penjadwalan</span>
+        </a>
+        <div id="dataPenjadwalan" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="penjadwalan.php">Data Jadwal</a>
+            <a class="collapse-item" href="analisisJadwal.php">Analisis Jadwal</a>
+            </div>
+        </div>
+    </li>
+
     <!-- Divider -->
     <hr class="sidebar-divider">
     <div class="sidebar-heading mt-2">

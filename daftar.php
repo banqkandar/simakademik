@@ -1,4 +1,5 @@
-<?php include('header.php'); ?>
+<?php include 'header.php'; ?>
+
 <div class="login">
     <div class="img">
         <img src="images/login.svg">
@@ -27,7 +28,7 @@
                         <i class="fa fa-user"></i>
                     </div>
                     <div>
-                        <h5>Username</h5>
+                        <h5>Email</h5>
                         <input type="text" class="input">
                     </div>
                 </div>
@@ -44,4 +45,5 @@
             </form>
         </div>
     </div>
-    <?php include('footer.php'); ?>
+    
+<?php include 'footer.php'; ?>

@@ -15,9 +15,6 @@
                     <a class="nav-link text-gray-500" href="tentang.php">Tentang</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-gray-500" href="fakultas.php">Fakultas</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link text-gray-500" href="kurikulum.php">Kurikulum</a>
                 </li>
                 <li class="nav-item active">
